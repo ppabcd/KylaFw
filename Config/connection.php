@@ -1,7 +1,7 @@
 <?php
 return [
-  'host' => 'HOST',
-  'username' => 'USERNAME',
-  'password' => 'PASSWORD',
-  'database' => 'DATABASE'
+    'host' => 'localhost',
+    'username' => 'root',
+    'password' => '',
+    'database' => 'kyla'
 ];

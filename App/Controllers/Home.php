@@ -3,12 +3,14 @@ namespace App\Controllers;
 /**
  * Home Class
  */
-class Home
-{
-  public function index(){
-    echo 'Apa kabar?';
-  }
-  public function data(){
-    echo 'ini data';
-  }
+use System\Core\Controller;
+class Home extends Controller {
+    public function index(){
+        self::view('welcome',[
+            'data'=> 'hello'
+        ]);
+    }
+    public function data(){
+        echo 'ini data';
+    }
 }

@@ -1,12 +1,11 @@
 <?php
 /*
 * Author Ammar Faizi
-* https://www.facebook.com/ammarfaizi2
 */
 namespace Helper;
 
 class CraynerMachine {
-  const USERAGENT = "Mozilla/5.0 (Windows NT 6.1; rv:50.0) Gecko/20100101 Firefox/50.0";
+    const USERAGENT = "Mozilla/5.0 (Windows NT 6.1; rv:50.0) Gecko/20100101 Firefox/50.0";
 	public static function curl($url,$op=null,$return=null){
 		$ch = curl_init();
 		$options = array(

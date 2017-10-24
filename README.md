@@ -26,3 +26,7 @@ For example i installed this project in website.com/path/ folder. Root to path c
 $class_data = (isset(SEGMENT[1]))?SEGMENT[1]:'home'; // if in sub folder
 $method_data = (isset(SEGMENT[2]))?SEGMENT[2]:'index';
 ```
+
+## License
+
+Released under Apache-2.0 License - see the [License File](LICENSE) for details.

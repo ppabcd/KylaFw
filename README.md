@@ -29,4 +29,4 @@ $method_data = (isset(SEGMENT[2]))?SEGMENT[2]:'index';
 
 ## License
 
-Released under Apache-2.0 License - see the [License File](LICENSE) for details.
+Released under MIT License - see the [License File](LICENSE) for details.

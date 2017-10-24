@@ -1,0 +1,19 @@
+{
+    "name": "ppabcd/kyla_ai",
+    "description": "Artificial Intelligence System",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Reza Juliandri",
+            "email": "rezajuliandri20@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "":""
+        }
+    }
+}

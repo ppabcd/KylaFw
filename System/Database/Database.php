@@ -1,10 +1,10 @@
 <?php
-namespace Database;
+namespace System\Database;
 /**
  * Database Class
  */
-use Database\ResultSet;
-class Database
+use System\Database\ResultSet;
+class Database extends ResultSet
 {
     private $configs = [];
     public function __construct()

@@ -1,5 +1,5 @@
 <?php
-namespace Database;
+namespace System\Database;
 /**
  * Result Set
  */

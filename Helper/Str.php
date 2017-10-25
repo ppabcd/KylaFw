@@ -1,5 +1,5 @@
 <?php
-namespaceHelper;
+namespace Helper;
 /**
  * Random Class
  */

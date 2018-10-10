@@ -1,4 +1,5 @@
 <?php
+
 return [
-    'view' =>'App\Views'
+    'view' => 'App/Views'
 ];
